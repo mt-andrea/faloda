@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+   
+html, body {
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 14pt;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  max-width: 800px;
+  background: rgba(255,255,255, 0.66);
+  color: black;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+h1 {
+	margin-bottom: 80px;
+}
+
+h2, h1 {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol li {
+	display: inline-block;
+}
+
+menu {
+	list-style-type: none;
+}
+
+menu li:before {
+	content: "\1F374" " ";
+}
+
+section {
+	border: groove 8px;
+	overflow: auto;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+article {
+	text-align: justify;
+}
+
+figure {
+	float: left;
+	clear: right;
+	overflow: auto;
+	margin: 0 10px 10px 0;
+}
+
+img {
+	opacity: 0.66;
+	max-width: 450px;
+}
+
+figcaption {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 16pt;
+}
+
+aside {
+	margin-top: 20px;
+	font-size: 16pt;
+	clear: left;
+}
+
+fieldset {
+	padding-left: 130px;
+	border: ridge 6px;
+}
+
+legend {
+	text-align: right;
+	margin-right: 40px;
+}
